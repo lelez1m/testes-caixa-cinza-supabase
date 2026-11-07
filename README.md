@@ -28,6 +28,19 @@ Na seção Authentication, foi cadastrado um usuário de teste com e-mail e senh
 Também foram identificadas a URL do projeto e a chave pública da API, necessárias para realizar as requisições de autenticação.
 
 O objetivo dessa configuração foi disponibilizar um serviço de autenticação funcional para verificar o comportamento da API.
+### Evidências do Supabase
+
+**Projeto criado:**
+
+![Projeto criado](prints/01-projeto-criado-supabase.png)
+
+**Painel e URL da API:**
+
+![Painel Supabase](prints/02-painel-url-api-supabase.png)
+
+**Tela de autenticação:**
+
+![Autenticação Supabase](prints/03-tela-autenticacao-supabase.png)
 
 ## Configuração do Postman
 
@@ -47,6 +60,15 @@ As seguintes variáveis foram configuradas:
 O uso de variáveis facilitou a organização dos testes, evitando a necessidade de repetir as credenciais em cada requisição.
 
 Foi criada a Collection **Testes API Autenticacao**, contendo cinco requisições para validação do login.
+### Evidências do Postman
+
+**Workspace criado:**
+
+![Workspace](prints/05-workspace-postman.png)
+
+**Environment criado:**
+
+![Environment](prints/06-environment-criado.png)
 
 ## Configuração das Requisições
 
@@ -75,6 +97,19 @@ A autenticação da requisição inicial foi configurada como No Auth, utilizand
 ```
 
 A finalidade dessa requisição foi verificar se a API permite autenticação com credenciais corretas e bloqueia tentativas com informações incorretas.
+### Evidências das Requisições
+
+**Headers:**
+
+![Headers](prints/07-requisicao-headers.png)
+
+**Endpoint POST:**
+
+![Endpoint](prints/08-endpoint-post.png)
+
+**Body JSON:**
+
+![Body JSON](prints/09-body-json-login.png)
 
 ## Execução dos Testes
 
@@ -109,6 +144,27 @@ Os registros foram organizados utilizando as respostas reais obtidas durante a e
 Os cinco cenários apresentaram os comportamentos esperados, sem falhas funcionais identificadas nos cenários executados.
 
 A planilha está disponível na pasta **planilha/** do repositório, enquanto as capturas de tela dos testes estão organizadas na pasta **prints/**.
+### Evidências dos Testes Executados
+
+**CT01 — Login válido:**
+
+![CT01](prints/10-CT01-login-valido.png)
+
+**CT02 — Senha incorreta:**
+
+![CT02](prints/11-CT02-senha-incorreta.png)
+
+**CT03 — Usuário inexistente:**
+
+![CT03](prints/12-CT03-usuario-inexistente.png)
+
+**CT04 — Campos vazios:**
+
+![CT04](prints/13-CT04-campos-vazios.png)
+
+**CT05 — Credenciais inválidas:**
+
+![CT05](prints/14-CT05-credenciais-invalidas.png)
 
 ## Resultados Obtidos
 
