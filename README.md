@@ -42,6 +42,13 @@ O objetivo dessa configuração foi disponibilizar um serviço de autenticação
 
 ![Autenticação Supabase](prints/03-tela-autenticacao-supabase.png)
 
+### Usuário cadastrado
+
+![Usuário cadastrado no Supabase](prints/04-usuario-cadastrado.png.png)
+
+### Autenticação por e-mail habilitada
+
+![Provedor de e-mail habilitado](prints/04-autenticacao-email-habilitada.png.png)
 ## Configuração do Postman
 
 Foi utilizado o Postman Desktop para executar os testes.
@@ -165,6 +172,9 @@ A planilha está disponível na pasta **planilha/** do repositório, enquanto as
 **CT05 — Credenciais inválidas:**
 
 ![CT05](prints/14-CT05-credenciais-invalidas.png)
+### Planilha de testes preenchida
+
+![Registro dos cinco testes](prints/17-planilha-testes.png.png)
 
 ## Resultados Obtidos
 
